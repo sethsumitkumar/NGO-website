@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women Empowerment Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Women Empowerment Hub</h1>
+        <button class="nav-toggle">☰</button>
+    </header>
+    <button id="themeToggle">☀️</button>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#stories">Success Stories</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="hero-section">
+        <h2>Empowering Women Through Technology</h2>
+        <p>Join our community to learn, grow, and succeed in various fields.</p>
+        <a href="join.html" class="cta-button">Join Our Community</a>
+    </section>
+    <section class="stats-container">
+        <div class="stat-card">
+            <div class="stat-number" data-target="500">0</div>
+            <p>Community Members</p>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number" data-target="50">0</div>
+            <p>Success Stories</p>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number" data-target="30">0</div>
+            <p>Monthly Events</p>
+        </div>
+    </section>
+    <section id="stories">
+        <h2>Success Stories</h2>
+        <div class="story-list"></div>
+    </section>
+    <section id="resources">
+        <h2>Resources</h2>
+        <div class="resources-grid">
+            <div class="resource-card">
+                <h3>Scholarships</h3>
+                <p>Discover scholarships specifically designed for women in technology and STEM fields.</p>
+                <a href="#" class="resource-link">View Scholarships</a>
+            </div>
+            <div class="resource-card">
+                <h3>Coding Bootcamps</h3>
+                <p>Find the best coding bootcamps with special programs for women in tech.</p>
+                <a href="#" class="resource-link">Explore Bootcamps</a>
+            </div>
+            <div class="resource-card">
+                <h3>Mentorship</h3>
+                <p>Connect with experienced mentors who can guide you in your tech journey.</p>
+                <a href="#" class="resource-link">Find a Mentor</a>
+            </div>
+            <div class="resource-card">
+                <h3>Online Courses</h3>
+                <p>Access curated online courses to enhance your technical skills.</p>
+                <a href="#" class="resource-link">Browse Courses</a>
+            </div>
+        </div>
+    </section>
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <div id="events-container" class="events-grid"></div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Women Empowerment Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
